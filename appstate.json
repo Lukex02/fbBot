@@ -1,0 +1,71 @@
+[
+    {
+        "domain": ".messenger.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "c_user",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": true,
+        "storeId": "0",
+        "value": "100001308494834",
+        "id": 1
+    },
+    {
+        "domain": ".messenger.com",
+        "expirationDate": 1630566061.094146,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "datr",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": "0",
+        "value": "myhDYJ2LxZwQfpFgq4wUGUCT",
+        "id": 2
+    },
+    {
+        "domain": ".messenger.com",
+        "expirationDate": 1630566061.094992,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "sb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": "0",
+        "value": "qyhDYCrIBYTvJZG_z_bRIoeZ",
+        "id": 3
+    },
+    {
+        "domain": ".messenger.com",
+        "expirationDate": 1615618853,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "wd",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": "0",
+        "value": "1920x973",
+        "id": 4
+    },
+    {
+        "domain": ".messenger.com",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "xs",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": true,
+        "storeId": "0",
+        "value": "18%3AJgNj9BEvxENvBA%3A2%3A1615014059%3A19808%3A7469",
+        "id": 5
+    }
+
+]

@@ -1,0 +1,8 @@
+﻿"use strict"
+module.exports = function cmdHelp(msg, message, api) {
+    if (msg == ".help") {
+        var help = 'Đây là hướng dẫn sử dụng cho bot\n**#1** Thay đổi emoji: .emoji <emoji>, lưu ý emoji không dùng kết hợp từ các ký tự thường(như ":" + "D") \n**#2** Thay đổi tên group: .title <tên>\n**#3** Thay đổi ảnh group: .group <tên ảnh>, với tên ảnh là những ảnh đã được bot lưu dùng lệnh gán hình tùy chọn\n**#4** Gán câu tùy chọn: <câu muốn gán> => <câu muốn bot reply>\n**#5** Gán hình tùy chọn: #<tên hình>, sau đó gửi hình bạn muốn bot lưu\n**#6** Votekick 1 người trong group: .votekick <tag @người muốn kick>\n**#7** Random kick 1 người (chỉ cho admin): .juandeag\n**#8** Xóa câu hoặc hình đã lưu từ trước (chỉ cho admin): .txtdel/.picdel\n**#9** Set admin cho group (chỉ cho admin): .admin <tag@người muốn cho làm admin>\n**#10** Gửi thông tin tình hình dịch COVID-19: .corona global/<tên nước>\n**#11** Define gán lệnh vào text: <text muốn gán> --> <lệnh> (tất cả trừ #4,#5,#8,#9)\n**#12** Random 1 số: .random <min> <max> (từ -10^9 tới 10^9)\n**#13** Tạo 1 mã QR chứa text tự gán: .qr <text>\n**#14** Gỡ 1 tin của bot đã gửi (Chỉ cho admin): .unseen (reply tin bot muốn gỡ)\n**#15** Đặt nickname cho 1 hoặc nhiều thành viên: .nickname "<nickname>" <tag những người muốn đặt>\n**#16** Xì dách/Blackjack: .blackjack'
+        api.sendMessage("Vui lòng check inbox của bạn.", message.threadID)
+        api.sendMessage(help, message.senderID)
+    }
+}
